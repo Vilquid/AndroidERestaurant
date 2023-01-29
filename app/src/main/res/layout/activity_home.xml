@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".activity.HomeActivity">
+
+	<Button
+		android:id="@+id/Starter"
+		android:layout_height="wrap_content"
+		android:text="@string/entrees"
+		android:layout_width="123dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginTop="70dp"
+		app:cornerRadius="150sp"
+		app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+	<Button
+		android:id="@+id/middle"
+		android:layout_width="123dp"
+		android:layout_height="48dp"
+		android:layout_marginTop="30dp"
+		android:text="@string/plats"
+		app:cornerRadius="150sp"
+		app:layout_constraintEnd_toEndOf="@+id/Starter"
+		app:layout_constraintStart_toStartOf="@+id/Starter"
+		app:layout_constraintTop_toBottomOf="@+id/Starter" />
+
+	<Button
+		android:id="@+id/dessert"
+		android:layout_height="wrap_content"
+		android:text="@string/desserts"
+		app:cornerRadius="150sp"
+		android:layout_width="123dp"
+		app:layout_constraintEnd_toEndOf="@+id/middle"
+		app:layout_constraintStart_toStartOf="@+id/middle"
+		app:layout_constraintTop_toBottomOf="@+id/middle"
+		android:layout_marginTop="30dp"/>
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="120dp"
+		android:text="Android ERestaurant"
+		android:textSize="32sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
