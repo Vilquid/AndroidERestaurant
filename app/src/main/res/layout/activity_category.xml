@@ -18,16 +18,6 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
 
-	<Button
-		android:id="@+id/back"
-		android:layout_width="wrap_content"
-		android:layout_height="48dp"
-		android:layout_marginTop="648dp"
-		android:text="@string/retour"
-		app:cornerRadius="150sp"
-		app:layout_constraintEnd_toEndOf="@+id/rv_list"
-		app:layout_constraintStart_toStartOf="@+id/rv_list"
-		app:layout_constraintTop_toTopOf="parent" />
 
 	<androidx.recyclerview.widget.RecyclerView
 		android:id="@+id/rv_list"
@@ -51,4 +41,15 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/Title"
 		app:layout_constraintVertical_bias="0.331" />
+
+	<Button
+		android:id="@+id/back"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+		android:layout_marginTop="648dp"
+		android:text="@string/retour"
+		app:cornerRadius="150sp"
+		app:layout_constraintEnd_toEndOf="@+id/rv_list"
+		app:layout_constraintStart_toStartOf="@+id/rv_list"
+		app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

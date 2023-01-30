@@ -17,22 +17,24 @@
 			android:id="@+id/imageview"
 			android:layout_width="95dp"
 			android:layout_height="68dp"
+			android:minWidth="95dp"
+			android:scaleType="centerCrop"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintHorizontal_bias="0.0"
 			app:layout_constraintStart_toStartOf="parent"
-			app:layout_constraintTop_toTopOf="parent" />
+			app:layout_constraintTop_toTopOf="parent"
+			android:src="@drawable/dish" />
 
 		<TextView
 			android:id="@+id/textView"
-			android:layout_width="204dp"
-			android:layout_height="28dp"
+			android:layout_width="215dp"
+			android:layout_height="25dp"
 			android:layout_marginStart="20dp"
 			android:autoSizeMaxTextSize="10dp"
 			android:text="@string/item"
 			android:textSize="18sp"
 			android:textStyle="bold"
 			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintEnd_toStartOf="@+id/price"
 			app:layout_constraintStart_toEndOf="@+id/imageview"
 			app:layout_constraintTop_toTopOf="parent" />
 

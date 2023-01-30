@@ -12,6 +12,6 @@
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
-		app:srcCompat="@android:drawable/btn_radio" />
+		app:srcCompat="@drawable/dish" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
